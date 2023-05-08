@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Prestamos.css">
+    <title>Prestamos</title>
+</head>
+<body>
+    <form method="post" class="form-register">
+        <h2 class="form_titulo">Registro de Préstamos</h2>
+        <div class="contenedor-input">
+        <input type="text" id= "Cedula" name="cédula" placeholder="Cédula" class="input- 100" required>
+        <input type="text"id="Nombres" name="nombres" placeholder="Nombres" class="input-48" required>
+        <input type="text" id="Cantidad" name="Cantidad" placeholder="Cantidad"class="input-48" required>
+        <input type="text" id="Libro" name="Libro" placeholder="Libro"class="input-48" required>
+        <input type="email"id="email" name="correo" placeholder="Correo Electrónico" class="input-100" required>
+        <input type="text" id="Observacion" name="Observacion" placeholder="Observacion"class="input-48" required>
+        <input type="text" id= "CodigoLibro" name="Codigo libro" placeholder="Codigo Libro"class="input-48" required>
+        <p class="inicio">Fecha de prestamo:<input type="date" class="input-45" required></p>
+        <p class="egreso">Fecha devolucion:<input type="date" class="input-40" required></p>
+        
+        <input type="submit" value="Prestar" class="btn-enviar"onclick="Prestar()">
+        
+        </div>
+        </form>
+        <p id="error-message"></p>
+        <script src="index.js"></script>
+         
+         
+</body>
+</html>

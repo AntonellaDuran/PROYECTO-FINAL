@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    }
+    
+body{
+margin: 0;
+font-family: sans-serif;
+background-size: cover;
+background-image:url("Pres.jpg");
+}
+
+.form-register{ 
+width: 98%;
+max-width: 700px;
+margin: auto; 
+background: white;
+border-radius: 7px;
+}
+    
+.form_titulo{
+background: rgba(231, 141, 37, 0.692);
+color: #fff;
+padding: 20px;
+text-align: center;
+font-weight: 100; 
+font-size: 38px;
+border-radius: 7px;
+border-bottom: 5px solid rgb(51, 30, 34);
+}
+    
+.contenedor-input{ 
+padding: 10px 30px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+    
+.fechas{
+padding: 10px 30px; 
+display:flex ;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+    
+input{
+margin-bottom: 10px;
+padding: 5px;
+font-size: 16px;
+border-radius: 0;
+border-color: rgb(26, 32, 26);
+
+}
+
+.input-48{
+width: 50%;
+}
+
+.input-100{
+width: 100%;
+}
+
+.btn-enviar{
+background: rgb(62, 212, 167);
+color:white;
+margin: auto; 
+padding: 10px 50px;
+font-size: 25px;
+}
+
+.input-45{
+width: 100%;
+}
+
+.input-40{
+width: 100%;
+}
+
+
+    
+
+
+
+
+    

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Búsqueda de Materiales Bibliográficos</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Material.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Búsqueda de Materiales Bibliográficos</h1>
+      <form>
+        <input type="text" id="searchBox" placeholder="Buscar...">
+        <select id="materialSelect">
+          <option value="todos">Todos los materiales</option>
+          <option value="libro">Libros</option>
+          <option value="revista">Revistas</option>
+          <option value="tesis">Trabajos de Grado/Tesis</option>
+          <option value="cdrom">CD-ROM</option>
+        </select>
+        <input type="button" value="Buscar" onclick="search()">
+      </form>
+      <table id="resultsTable">
+        <thead>
+          <tr>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>Año</th>
+            <th>Editorial</th>
+          </tr>
+        </thead>
+        <tbody id="resultsBody">
+        </tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
